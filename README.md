@@ -1,5 +1,5 @@
 # banksystem
-This is a simple API which simulates online bank operations including basic transactions and security done by hashing passwords. It uses cookies to store the user's Id to enable user's interaction with the operations.
+This is a simple API which simulates online bank operations including basic transactions and security done by hashing passwords. It uses cookies to store the user's Id to enable user's interaction with the operations. Note that it is necessary to have MySql installed as this project uses it, it can be downloaded here: https://dev.mysql.com/downloads/.
 
 ## Features
   HomePage:  "/" (GET) no arguments
