@@ -13,12 +13,18 @@ This is a simple API which simulates online bank operations including basic tran
   History of past loans: "/main-page/loans-history"
   
   Bank details: "/main-page/bank/{bankId}"
+
   
   Pages for cash operations:
-    "/main-page/bank/{bankId}/transfer" - transferring cash from one user to the other
-    "/main-page/bank/{bankId}/deposit"  - increases the balance of the user by specified amount
-    "/main-page/bank/{bankId}/withdraw" - decreases the balance of the user
-    "/main-page/bank/{bankId}/loans"    - checks whether user's profile meets requirements for loan and increases user's balance
+  
+  "/main-page/bank/{bankId}/transfer" - transferring cash from one user to the other
+  
+  "/main-page/bank/{bankId}/deposit"  - increases the balance of the user by specified amount
+  
+  "/main-page/bank/{bankId}/withdraw" - decreases the balance of the user
+  
+  "/main-page/bank/{bankId}/loans"    - checks whether user's profile meets requirements for loan and increases user's balance
+  
   
   User details: "/main-page/user/{userId}"
   
@@ -27,6 +33,6 @@ This is a simple API which simulates online bank operations including basic tran
   Page where user can search for a bank using its name: "/main-page/search"
   
   Admin operations: 
-    "/main-page/admin-delete"
-    "/main-page/admin-change"
-    "/main-page/admin-create"
+  "/main-page/admin-delete"
+  "/main-page/admin-change"
+  "/main-page/admin-create"
